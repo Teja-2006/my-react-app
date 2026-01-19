@@ -1,6 +1,6 @@
 {
   "name": "my-react-app",
-  "homepage": "http://companyofdaddy.online",
+  "homepage": "https://companyofdaddy.online",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.0",
